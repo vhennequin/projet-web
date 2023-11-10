@@ -20,27 +20,29 @@
 }
 
 header {
+    position: sticky;
+    top: 0px;
     color:aliceblue;
     padding-top: 2rem;
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 8fr 1fr;
+    display: flex;
     background-color: #9BD4E6;
     font-size: 1.8rem;
+    width: 100%;
+}
+
+header div {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .logo_gauche{
-    grid-column-start: 0;
-    grid-row: 1/4;
-    float: left;
     width: 9rem;
     height: 9rem;
 }
 
 .logo_droite{
-    grid-column-start: 3;
-    grid-row: 1/4;
-    float: right;
     width: 9rem;
     height: 9rem;
 }
@@ -50,16 +52,27 @@ h1, h2{
 }
 
 main{
-    padding-left: 1rem;
+    padding-left: 5rem;
     font-family: 'Nunito', sans-serif;
     background: url("../images/accueil_background.png");        
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: local;
+}
+
+section{
+    display: flex;
+    padding-left: 13rem;
+    padding-right: 18rem;
 }
 
 main h1 {
     text-decoration: underline red;
     text-align: center;
-    padding-bottom: 2rem;
+}
+
+main h2{
+    padding-top: 2rem;
 }
 
 main p{
@@ -68,16 +81,15 @@ main p{
     text-indent: 2rem;
 }
 
+
 nav {
     background-color: #d1001f;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
 	justify-content: center;
-	gap: 10px 60px;
 	padding: 1rem 0rem 1rem 0rem;
 }
-
+/*
 nav a {
 	color: aliceblue;
 	text-decoration: none;
@@ -95,6 +107,16 @@ nav a:hover {
 .ici {
     color: grey;
 }
+*/
+
+nav  ul li { float:left; list-style: none; }
+nav  ul ul {display:none; width:150px;}
+nav  li {background:#CCCCCC;}
+nav  li a {text-decoration: none; color: #000; padding: 4px 0 4px 0; display:block; width:10rem;}
+nav  ul {text-align:center;}
+nav  ul.niveau1 li.sousmenu:hover ul.niveau2{display:block;}
+nav  li:hover {background: #EDD;}
+nav  li.sousmenu:hover {background: #EBB;}
 
 footer {
     background-color: #9BD4E6;
