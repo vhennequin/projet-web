@@ -14,6 +14,69 @@
     src:  url('../fonts/paragraphes/Nunito-Light.ttf') format('truetype');
 }
 
+@media (min-width: 1201px) {
+    header{
+        font-size: 1.8rem;
+    }
+
+    .logo_gauche{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .logo_droite{
+        width: 10rem;
+        height: 10rem;
+    }  
+
+    section {
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+    header{
+        font-size: 1.5rem;
+    }  
+
+    .logo_gauche{
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .logo_droite{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    section {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media (max-width: 850px) {
+    header{
+        font-size: 1.2rem;
+    }  
+
+    .logo_gauche{
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .logo_droite{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    section {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
 *{
     margin:0; 
     padding:0;
@@ -24,7 +87,6 @@ header {
     padding-top: 2rem;
     display: flex;
     background-color: #9BD4E6;
-    font-size: 1.8rem;
     width: 100%;
 }
 
@@ -35,23 +97,12 @@ header div {
     text-align: center;
 }
 
-.logo_gauche{
-    width: 9rem;
-    height: 9rem;
-}
-
-.logo_droite{
-    width: 9rem;
-    height: 9rem;
-}
-
 h1, h2, h3{
     font-family: "DO Futuristic", sans-serif;
 }
 
 main{
     padding-top: 2rem;
-    padding-left: 5rem;
     font-family: 'Nunito', sans-serif;
     background: url("../images/accueil_background.png");        
     background-repeat: repeat-y;
@@ -61,8 +112,6 @@ main{
 
 section{
     display: flex;
-    padding-left: 13rem;
-    padding-right: 18rem;
 }
 
 main h1 {
