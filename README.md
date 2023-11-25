@@ -14,7 +14,7 @@
 
 ## Médias
 - **Vidéo à inclure:** [The Change Catalysts Video](https://youtu.be/UG07x3aN3b0?si=9tooB5Z4rbC9LK3s)
-- **Background image:** [Hangar Y, Meudon](#) (Remplacez le lien par le chemin approprié)
+- **Background image:** [Hangar Y, Meudon](https://www.meudon.fr/wp-content/uploads/sites/5/2023/03/DSC_0784-scaled.jpg)
 
 ## Design
 - **Navbar idea:** [Horizontal Navbar](https://www.w3schools.com/css/css_navbar_horizontal.asp)
@@ -29,6 +29,6 @@
 ## Cours
 1. [Cours 1](https://whsjohnnygreen.org/wp-content/uploads/2016/11/Compass2.png)
 2. [Cours 2](https://pratiquesrh.com/sites/default/files/styles/hero_tablet_1x/public/2023-02/concept_de_reconnais_4tzwy.jpg.webp?itok=kBZCTHur)
-3. [Cours 3](#) (Ajoutez le lien du cours 3)
-4. [Cours 4](#) (Ajoutez le lien du cours 4)
+3. [Cours 3](https://www.ville-sees.fr/wp-content/uploads/2023/10/Militaire.jpg)
+4. [Cours 4](https://us.123rf.com/450wm/alex1618/alex16182006/alex1618200600789/150137685-ic%C3%B4ne-noire-de-glyphe-de-boycott-groupe-de-personnes-en-gr%C3%A8ve-protestation-sociale-pictogramme.jpg?ver=6)
 5. [Cours 5](https://www.nonfiction.fr/prximgsrv/crp/790/469/x/repo/b/8/b873b6d30b3b6a65ae268aefee7fa41c-0.jpg)
