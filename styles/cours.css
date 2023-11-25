@@ -1,4 +1,4 @@
-.tronc_commun{
+.resume_cours{
     background-color: #f2f2f2;
     border-radius: 10px;
     padding: 10px;
@@ -27,4 +27,10 @@ article{
 
 h3{
     text-align: center;
+}
+
+.prof{
+    text-indent: 0;
+    margin: 0;
+    font-weight: bold;
 }
