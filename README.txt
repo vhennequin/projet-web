@@ -1,4 +1,4 @@
-Nom: The Change Catalysts
+Nom: The Change Catalysts.
 Slogan: "Where Hopes Fuels Change"
 Création de l'école: An 32 du calendrier Eclispien
 Localisation: Quartier industriel Lunaire, ville de Tyrannograd, Eclipsia
