@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-image: url('./Images/Coca-Cola-Desktop-Wallpaper-35325.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="font-family: fantasy;">Coca cola illimité pendant un an</h1>
+    <p><h3> saisir votre code unique:</h3></p>
+
+    <input type="password" placeholder="saisir le code">
+    <button onclick="checkPassword()">envoyer</button>
+  </div>
+
+  <script>
+    function checkPassword() {
+      const passwordInput = document.querySelector('input[type="password"]');
+      if (passwordInput.value === 'freed0m') {
+        alert('Accès autorisé!');
+        location.href = "./accueil.html";
+      } else {
+        alert('Accès refusé. Veuillez vérifier votre mot de passe.');
+      }
+    }
+  </script>
+</body>
+</html>
+
+
