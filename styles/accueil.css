@@ -29,7 +29,7 @@
         height: 10rem;
     }  
 
-    section {
+    div {
         margin-left: 18rem;
         margin-right: 18rem;
     }
@@ -50,7 +50,7 @@
         height: 8rem;
     }
 
-    section {
+    div {
         margin-left: 10rem;
         margin-right: 10rem;
     }
@@ -71,7 +71,7 @@
         height: 6rem;
     }
 
-    section {
+    div {
         margin-left: 2rem;
         margin-right: 2rem;
     }
@@ -110,7 +110,7 @@ main{
     background-attachment: local;
 }
 
-section{
+div{
     display: flex;
 }
 
