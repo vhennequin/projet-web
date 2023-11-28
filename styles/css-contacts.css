@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: MyFutFont ;
+    src: url(../DoFuturistic-JRwaB.ttf) format('truetype');
+}
+
+#Top { font-family: MyFutFont;
+    color: aqua;
+    font-size: 2rem;
+}
+h3 { font-family: MyFutFont;}
+
+header {position: relative;
+    top: 0; 
+    width: 100%; 
+    background-color: #d1001f ; 
+    padding: 10px
+}
+
+
+nav ul {
+    display: flex; 
+    justify-content: space-between; /* faut que tu apprendre sa fonction */
+    align-items: center;
+    margin: 0;  
+    padding: 0; 
+
+  }
+  
+  nav li {
+    list-style: none; 
+    margin: 0 10px; 
+  }
+  
+  nav a {
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold; 
+  }
+
+  #P1 { font-style: italic;
+        font-size: larger;
+        color: aqua;
+
+
+  }
+
+  section {position: relative;
+           text-align: center;
+           text-decoration: solid;
+           padding: 2rem 0rem 2rem 0rem;
+}
+ 
+  .FOOT { text-align: center;
+          font-family: MyFutFont;
+          color: aqua;
+
+    
+}
+
+  body { background-image:url('../CONTACT-BG.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+  }
+
+
+
+  footer {
+    background-color: #9BD4E6;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+}
