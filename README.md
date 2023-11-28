@@ -22,9 +22,9 @@
 
 ## Sponsors
 1. [Polytechnique](https://www.polytechnique.edu/)
-2. [Sponsor 2](https://i.redd.it/arstotzka-flags-in-different-ideologies-v0-jg3k2vnjglu81.png?width=2560&format=png&auto=webp&s=eef5a1ae4f904e20e15f1200b7b1f093b989d920)
-3. [Sponsor 3](https://avatars.akamai.steamstatic.com/8e76e8626137272949479ef01cb78268ced22dee_full.jpg)
-4. [Sponsor 4](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/1280px-F1.svg.png)
+2. [Papers Please](https://i.redd.it/arstotzka-flags-in-different-ideologies-v0-jg3k2vnjglu81.png?width=2560&format=png&auto=webp&s=eef5a1ae4f904e20e15f1200b7b1f093b989d920)
+3. [paradox interactive](https://avatars.akamai.steamstatic.com/8e76e8626137272949479ef01cb78268ced22dee_full.jpg)
+4. [Formula 1](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/1280px-F1.svg.png)
 
 ## Cours
 1. [Cours 1](https://whsjohnnygreen.org/wp-content/uploads/2016/11/Compass2.png)
