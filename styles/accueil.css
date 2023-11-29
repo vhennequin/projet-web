@@ -105,9 +105,9 @@ main{
     padding-top: 2rem;
     font-family: 'Nunito', sans-serif;
     background: url("../images/accueil_background.png");        
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: local;
+    background-color: #f3f0eb;
 }
 
 div{
