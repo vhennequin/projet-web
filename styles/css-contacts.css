@@ -1,9 +1,13 @@
-@charset "utf-8";
+
+ @charset "utf-8";
 
 @font-face {
     font-family: MyFutFont ;
     src: url(../DoFuturistic-JRwaB.ttf) format('truetype');
 }
+
+
+
 
 #Top { font-family: MyFutFont;
     color: aqua;
@@ -54,7 +58,7 @@ nav ul {
  
   .FOOT { text-align: center;
           font-family: MyFutFont;
-          color: aqua;
+          
 
     
 }
@@ -63,6 +67,7 @@ nav ul {
          background-repeat: no-repeat;
          background-size: cover;
          background-attachment: fixed;
+         opacity: 1;
   }
 
 
@@ -72,3 +77,41 @@ nav ul {
     text-align: center;
     padding: 0.5rem 1.5rem;
 }
+
+
+
+
+ 
+
+#CIR{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+
+
+  .form {
+     
+    background-color: rgba(95, 158, 160, 0.5);
+    padding: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
+
+  }
+  .form { font-family: MyFutFont;
+    color: wheat;
+   margin: 5px;
+   font-weight: bold;
+  
+     
+  }
+
+  #mid h3 { 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: antiquewhite;
+
+  }
