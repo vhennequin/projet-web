@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'DO Futuristic';
+    font-style: normal;
+    font-weight: 300;
+    src:  url('../fonts/titres/DoFuturistic-JRwaB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    src:  url('../fonts/paragraphes/Nunito-Light.ttf') format('truetype');
+}
+
+@media (min-width: 1201px) {
+    header{
+        font-size: 1.8rem;
+    }
+
+    .logo_gauche{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .logo_droite{
+        width: 10rem;
+        height: 10rem;
+    }  
+
+    div {
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+    header{
+        font-size: 1.5rem;
+    }  
+
+    .logo_gauche{
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .logo_droite{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    div {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media (max-width: 850px) {
+    header{
+        font-size: 1.2rem;
+    }  
+
+    .logo_gauche{
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .logo_droite{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    div {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

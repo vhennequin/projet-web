@@ -1,0 +1,43 @@
+nav {
+    background-color: #d1001f;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 1rem 0rem 1rem 0rem;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li a {
+    display: inline-block;
+    color:aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.ici {
+    background-color: #111;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+
